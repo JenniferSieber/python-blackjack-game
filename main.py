@@ -15,9 +15,9 @@ class Card:
 class Deck:
   def __init__(self):
     self.cards = []
-    suits =  ['spades', 'clubs', 'hearts', 'diamonds']
+    suits =  ['Spades', 'Clubs', 'Hearts', 'Diamonds']
     ranks = [
-        {'rank': 'A', 'value': 11},
+        {'rank': 'Ace', 'value': 11},
         {'rank': '2', 'value': 2},
         {'rank': '3', 'value': 3},
         {'rank': '4', 'value': 4},
@@ -27,9 +27,9 @@ class Deck:
         {'rank': '8', 'value': 8},
         {'rank': '9', 'value': 9},
         {'rank': '10', 'value': 10},
-        {'rank': 'J', 'value': 10},
-        {'rank': 'Q', 'value': 10},
-        {'rank': 'K', 'value': 10},
+        {'rank': 'Jack', 'value': 10},
+        {'rank': 'Queen', 'value': 10},
+        {'rank': 'King', 'value': 10},
       ]
 
     for suit in suits:
