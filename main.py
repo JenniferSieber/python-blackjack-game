@@ -163,7 +163,7 @@ class Game:
         print('Tie! You both hit 21! 😑')
         return True
       elif player_hand.is_blackjack():
-        print('21, BlackJack! You Win! 😀')
+        print('😀 21, BlackJack! You Win!')
         return True
       elif dealer_hand.is_blackjack():
         print('Dealer hit 21! You Lose!😭')
@@ -171,7 +171,7 @@ class Game:
       
     else:
       if player_hand.get_value() > dealer_hand.get_value():
-        print("You win! 😀")
+        print("😀 You win!")
       elif player_hand.get_value() == dealer_hand.get_value():
         print("Tie! 😑")
       else:
