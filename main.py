@@ -1,4 +1,3 @@
-
 """
 BlackJack Game
 
@@ -180,6 +179,6 @@ class Game:
       return True
     return False   
 
-        
-g = Game()
-g.play()
+# Create Instance of Game - User will select number of times to play      
+new_game = Game()
+new_game.play()
